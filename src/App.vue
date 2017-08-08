@@ -1,7 +1,10 @@
 <template>
-  <div id="app">
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+  <div>
+    <router-link to="/">
+    <div class="header">Poker</div>
+
+    </router-link>
+    <router-view id="app"></router-view>
   </div>
 </template>
 
@@ -19,5 +22,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.header {
+  background: hsla(0,0%,10%,1);
+  height: 30px;
 }
 </style>

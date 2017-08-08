@@ -44,7 +44,7 @@ let apolloProvider = new VueApollo({
 })
 
 /* eslint-disable no-new */
-new Vue({
+export default new Vue({
   el: '#app',
   apolloProvider,
   router,
